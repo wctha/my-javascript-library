@@ -1,2 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-console.log( "A" - "B" + "2");
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+[foo, bar] = [bar, foo];
+const appName = getAppName(channel);
