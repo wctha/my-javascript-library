@@ -1,3 +1,1 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-[foo, bar] = [bar, foo];
-const appName = getAppName(channel);
+console.log("0 || 1 = "+(0 || 1));
