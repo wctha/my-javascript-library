@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const uniqueArr = (arr) => [...new Set(arr)];
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const fullName = name || 'buddy';
