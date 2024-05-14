@@ -1,1 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const minNumber = arr => Math.min(...arr);
