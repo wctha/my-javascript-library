@@ -1,2 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
