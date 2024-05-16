@@ -1,3 +1,1 @@
-const appName = getAppName(channel);
-const reversedString = str => str.split('').reverse().join('');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
