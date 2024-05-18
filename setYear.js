@@ -1,2 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log( "A" - "B" + "2");
+const appName = getAppName(channel);
+console.log( "A" - "B" + 2);
