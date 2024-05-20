@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-const appName = getAppName(channel);
-console.log( "A" - "B" + 2);
+const randomBoolean = () => Math.random() >= 0.5;
+console.log("1 && 2 = "+(1 && 2));
