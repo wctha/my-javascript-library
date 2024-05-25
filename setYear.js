@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const isArray = (arr) => Array.isArray(arr);
+const uniqueArr = (arr) => [...new Set(arr)];
+const result = await makeHttpRequest(url);
+console.log("1 || 2 = "+(1 || 2));
