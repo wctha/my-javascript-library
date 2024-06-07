@@ -1,1 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
+var pattern = {};
+const merge = Object.assign({}, obj1, obj2);
+const removeDuplicates = (arr) => [...new Set(arr)];
