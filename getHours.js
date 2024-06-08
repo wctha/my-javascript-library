@@ -1,2 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const merge = Object.assign({}, obj1, obj2);
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
