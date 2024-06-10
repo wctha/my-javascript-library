@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-console.log( "A" - "B" + "2");
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const minNumber = arr => Math.min(...arr);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
