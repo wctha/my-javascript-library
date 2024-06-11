@@ -1,3 +1,2 @@
-var pattern = {};
-const merge = Object.assign({}, obj1, obj2);
-const removeDuplicates = (arr) => [...new Set(arr)];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const isTabInView = () => !document.hidden;
