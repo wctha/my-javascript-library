@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-console.log(1 +  "2" + "2");
+const merge = (a, b) => [...a, ...b];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
