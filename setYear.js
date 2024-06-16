@@ -1,2 +1,1 @@
-console.log(+"1" +  "1" + "2");
-var pattern = {};
+const fullName = name || 'buddy';
