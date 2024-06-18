@@ -1,1 +1,1 @@
-const fullName = name || 'buddy';
+const uniqueArr = (arr) => [...new Set(arr)];
