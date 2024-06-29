@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const channel = getChannel(computedAppVersion);
+var arr3 = "jones".split('');
