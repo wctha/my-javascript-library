@@ -1,1 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(false === '0');
