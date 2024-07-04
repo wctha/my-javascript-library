@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-console.log(false === '0');
+console.log(false == '0');
+[foo, bar] = [bar, foo];
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
