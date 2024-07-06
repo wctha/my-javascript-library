@@ -1,3 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const results = await Promise.all(resultingPromises);
-const lastElement = arr => arr[arr.length - 1];
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(false == '0');
+function myAPITS(someString: string, someNum: number) { ... };
