@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const flattenedArray = arr => [].concat(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
