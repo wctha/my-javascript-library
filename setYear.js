@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const updated = numbers.filter(element => element > 6);
+[foo, bar] = [bar, foo];
+const allResults = await Promise.all(items.map(async (item) => {}));
