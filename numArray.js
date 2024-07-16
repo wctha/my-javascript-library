@@ -1,1 +1,1 @@
-var pattern = {};
+const reversedString = str => str.split('').reverse().join('');
