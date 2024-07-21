@@ -1,1 +1,1 @@
-const isEven = (num) => num % 2 === 0;
+const uniqueArray = arr => [...new Set(arr)];
