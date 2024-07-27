@@ -1,2 +1,3 @@
-const merge = [...new Set(a.concat(b))];
-const merge = (a, b) => a.concat(b);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
