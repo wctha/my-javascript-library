@@ -1,3 +1,2 @@
-const toggleBool = () => (bool = !bool);
-const fullName = name || 'buddy';
-const result = await makeHttpRequest(url);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const allResults = await Promise.all(items.map(async (item) => {}));
