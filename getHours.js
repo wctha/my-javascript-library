@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-console.log(false == '0');
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const isArray = (arr) => Array.isArray(arr);
